@@ -1,6 +1,15 @@
+// Global Context
+import { ItemsProvider } from '../context/ItemsContext'
+
+// Componentes
+import Items from '../components/Items'
+
 const App = () => {
   return (
-    <div>App</div>
+    <ItemsProvider>
+      <div>Soy el App</div>
+      <Items />
+    </ItemsProvider>
   )
 }
 

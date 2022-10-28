@@ -2,7 +2,7 @@
 
 const getUrlItems = () => {
   const urlItems = 'https://ecomerce-master.herokuapp.com/api/v1/item'
-  console.log('🚀 ~ urlItems', urlItems)
+  // console.log('🚀 ~ urlItems', urlItems)
 
   return urlItems
 }
