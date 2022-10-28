@@ -53,7 +53,7 @@ const Navbar = () => {
             </li>
           </ul>
           <form className='d-flex'>
-            <input classname='form-control me-2' type='text' placeholder='Search' />
+            <input className='form-control me-2' type='text' placeholder='Search' />
             <button className='btn btn-outline-primary ms-2 my-sm-0' type='submit'>Search</button>
           </form>
         </div>
