@@ -10,8 +10,8 @@ import getUrlItems from '../utils/itemsApi'
 const Items = () => {
   const context = useItemsContext()
   useGetData(getUrlItems())
-  console.log('🚀 ~ context loading', context.loading)
-  console.log('🚀 ~ context data', context.data)
+  // console.log('🚀 ~ context loading', context.loading)
+  // console.log('🚀 ~ context data', context.data)
 
   return (
     <section className='container py-4'>
